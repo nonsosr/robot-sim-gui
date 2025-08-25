@@ -1,4 +1,4 @@
-package RobotSim;
+package src.RobotSim;
 
 public class ConsoleCanvas {
     private char[][] canvas; // 2D array representing the arena

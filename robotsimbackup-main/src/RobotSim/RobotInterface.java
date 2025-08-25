@@ -1,4 +1,4 @@
-package RobotSim;
+package src.RobotSim;
 
 import java.util.Scanner;
 import java.io.*;

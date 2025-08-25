@@ -1,4 +1,4 @@
-package RobotSim;
+package src.RobotSim;
 
 public class Robot {
     private int x, y;
