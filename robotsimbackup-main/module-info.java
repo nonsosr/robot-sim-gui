@@ -4,6 +4,6 @@
 /**
  * 
  */
-module CourseworkPt1 {
+module CourseworkPt {
 	requires java.desktop;
 }
