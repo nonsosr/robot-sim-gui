@@ -2,7 +2,7 @@ package src.RobotSim;
 
 public class Robot {
     private int x, y;
-    private int RobotID;
+    private final int RobotID;
     private static int idCounter = 0; // Static counter for unique ID assignment
     private Direction direction;
 
@@ -20,10 +20,6 @@ public class Robot {
 
     public boolean isHere(int sx, int sy) {
         return this.x == sx && this.y == sy;
-    }
-
-    public Direction getDirection() {
-        return direction;
     }
 
     public void displayRobot(ConsoleCanvas c) {

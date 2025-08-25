@@ -4,9 +4,10 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class RobotArena {
-    private int width, height;
-    private ArrayList<Robot> robots;
-    private Random randomGenerator;
+    private final int width;
+    private final int height;
+    private final ArrayList<Robot> robots;
+    private final Random randomGenerator;
 
     public RobotArena(int width, int height) {
         this.width = width;
@@ -90,7 +91,7 @@ public class RobotArena {
                         throw new Exception("Line does not contain enough parts: " + line);
                     }
 
-                    int id = Integer.parseInt(parts[1]);      // Robot ID
+                    // Robot ID
                     int x = Integer.parseInt(parts[4]);      // X-coordinate
                     int y = Integer.parseInt(parts[5]);      // Y-coordinate
                     Direction direction = Direction.valueOf(parts[7].toUpperCase()); // Direction

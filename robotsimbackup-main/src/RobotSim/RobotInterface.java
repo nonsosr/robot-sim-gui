@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.io.*;
 
 public class RobotInterface {
-    private Scanner s;
+    private final Scanner s;
     private RobotArena myArena;
 
     public RobotInterface() {
@@ -44,14 +44,14 @@ public class RobotInterface {
         int height = myArena.getHeight();
         ConsoleCanvas canvas = new ConsoleCanvas(width, height, "30806962");
         myArena.showRobots(canvas);
-        System.out.println(canvas.toString());
+        System.out.println(canvas);
     }
 
     private void simulate(int nTimes) {
         for (int i = 0; i < nTimes; i++) {
             myArena.moveAllRobots();
             doDisplay();
-            try { Thread.sleep(200); } catch (InterruptedException e) { }
+            try { Thread.sleep(200); } catch (InterruptedException _) { }
         }
     }
 
