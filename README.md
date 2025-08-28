@@ -1,6 +1,6 @@
 # Robot Simulation GUI
 
-A Java-based robot simulation with a graphical interface, developed as part of my progression at the University of Reading. The project demonstrates **object-oriented programming, event-driven programming, and GUI development** in Java.
+A Java-based robot simulation with a graphical interface, developed as part of my progression at the University of Reading. The project demonstrates **object-oriented programming, event-driven programming, and GUI development** in Java. Started in **November 2024** and completed a month later in **December**. Migrated from CSGitlab to GitHub.
 
  ## ✨ Features
 - Simulation of robots moving and interacting in a 2D arena
@@ -13,5 +13,4 @@ A Java-based robot simulation with a graphical interface, developed as part of m
 - 🧩 **Paradigms**: Object-Oriented Programming, Event-Driven Programming
 - 🛠 **Tools**: JavaFX , Git
 
-## ⚙ Working On
-- Graphical Interface for the visualisation of robot actions
+
